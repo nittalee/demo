@@ -3,55 +3,59 @@
   <head>
     <meta charset="utf-8" />
     <title>Моя первая страница</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
 
-  <body id="body">
-      <div class="bg"></div>
+  <body>
+      <div class="background"></div>
+
       <div class="card">
-          <img class="leon" src="leon.jpg" />
-          <h1 class="title">Моя карточка</h1>
+          <img class="card__photo" src="img/leon.jpg" />
+          <h1 class="card__title">Моя карточка</h1>
+
           <p>Меня зовут: <strong>Алексей Ульянов</strong></p>
           <p>Я работаю: <strong>Компания Веблайм</strong></p>
+
           <a class="logo" href="https://weblime.ru" target="_blank">
-              <img src="weblime.png" alt="weblime" title="weblime" />
+              <img class="logo__img" src="img/weblime.png" alt="weblime" title="weblime" />
           </a>
 
           <h2>Восточная Конференция</h2>
-          <table class="myTable" cellpadding="0" cellspacing="0">
+          <table class="table" cellpadding="0" cellspacing="0">
               <thead>
-                  <th>Место</th>
-                  <th>Команды</th>
-                  <th>Игр</th>
-                  <th>Очков</th>
+                  <th class="table__th">Место</th>
+                  <th class="table__th">Команды</th>
+                  <th class="table__th">Игр</th>
+                  <th class="table__th">Очков</th>
               </thead>
               <tbody>
-                  <tr>
-                      <td>12</td>
-                      <td>Амур</td>
-                      <td>59</td>
-                      <td>69</td>
+                  <tr class="table__tr">
+                      <td class="table__td">12</td>
+                      <td class="table__td">Амур</td>
+                      <td class="table__td">59</td>
+                      <td class="table__td">69</td>
                   </tr>
-                  <tr>
-                      <td><i>13</i></td>
-                      <td><i>Лада</i></td>
-                      <td>59</td>
-                      <td>69</td>
+              <tbody>
+                  <tr class="table__tr">
+                      <td class="table__td table__td--italic">13</td>
+                      <td class="table__td table__td--italic">Лада</td>
+                      <td class="table__td">59</td>
+                      <td class="table__td">69</td>
                   </tr>
-                  <tr>
-                      <td>14</td>
-                      <td>Металлург Нк</td>
-                      <td>59</td>
-                      <td>55</td>
+                  <tr class="table__tr">
+                      <td class="table__td">14</td>
+                      <td class="table__td">Металлург Нк</td>
+                      <td class="table__td">59</td>
+                      <td class="table__td">55</td>
                   </tr>
               </tbody>
           </table>
 
           <div class="social">
-              <h3>Я в социальных сетях</h3>
-              <a target="_blank" href="https://vk.com/id15073707">Вконтакте</a>
-              <a target="_blank" href="https://www.facebook.com/">Фейсбук</a>
-              <a target="_blank" href="https://twitter.com/">Твиттер</a>
+              <h3 class="social__title">Я в социальных сетях</h3>
+              <a class="social__link" target="_blank" href="https://vk.com/id15073707">Вконтакте</a>
+              <a class="social__link" target="_blank" href="https://www.facebook.com/">Фейсбук</a>
+              <a class="social__link" target="_blank" href="https://twitter.com/">Твиттер</a>
           </div>
       </div>
   </body>

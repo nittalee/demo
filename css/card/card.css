@@ -1,0 +1,19 @@
+.card{
+    position:relative;
+    width:600px;
+    margin: 0 auto;
+    text-align:center;
+    background-color: white;
+    overflow: hidden;
+}
+
+.card__title{
+    font-size: 40px;
+    color: orange;
+}
+
+.card__photo{
+    position: relative;
+    left: 0;
+    top: 0;
+}

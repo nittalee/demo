@@ -1,0 +1,20 @@
+.table{
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+}
+.table__tr, .myTable__th{
+    padding: 5px;
+    background-color: #eee;
+}
+.table__tr:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+.table__td{
+    padding: 5px 15px;
+}
+
+.table__td--italic{
+    font-style: italic;
+}

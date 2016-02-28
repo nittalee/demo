@@ -1,0 +1,8 @@
+/*общие стили страницы*/
+@import url("default/default.css");
+
+/*стили для блоков по БЭМу*/
+@import url("card/card.css");
+@import url("table/table.css");
+@import url("background/background.css");
+@import url("social/social.css");
