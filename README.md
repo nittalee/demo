@@ -1,4 +1,4 @@
 # Тестовый проект
 Будет развиваться вместе с прогрессом на уроках
-## Статус ![](https://api.travis-ci.org/DonRai/demo.svg)
+## Статус ![](https://travis-ci.org/WFS-1/demo.svg)
 Это автопроверка валидности ХТМЛа через TravisCI
