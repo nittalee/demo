@@ -37,8 +37,8 @@ gulp.task('image', function () {
     gulp.src([
         'img/*.*',
         'img/**/*.*'
-    ]) //Выберем наши картинки
-        .pipe(imagemin({ //Сожмем их
+    ])
+        .pipe(imagemin({
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],
             use: [pngquant()],
