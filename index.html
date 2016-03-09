@@ -7,6 +7,8 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="src/style.css" />
   </head>
 
   <body>
@@ -64,28 +66,4 @@
           </div>
       </div>
   </body>
-
-
-  <script>
-    /*!
-    loadCSS: load a CSS file asynchronously.
-    */
-    function loadCSS(href){
-      var ss = window.document.createElement('link'),
-          ref = window.document.getElementsByTagName('head')[0];
-
-      ss.rel = 'stylesheet';
-      ss.href = href;
-      ss.media = 'only x';
-      ref.parentNode.insertBefore(ss, ref);
-      setTimeout( function(){
-        ss.media = 'all';
-      },0);
-    }
-    loadCSS('src/style.css');
-  </script>
-  <noscript>
-    <!-- Let's not assume anything -->
-    <link rel="stylesheet" href="src/style.css" />
-  </noscript>
 </html>
