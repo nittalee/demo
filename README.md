@@ -1,4 +1,4 @@
 # Тестовый проект
 Будет развиваться вместе с прогрессом на уроках
-## Статус ![](https://travis-ci.org/WFS-1/demo.svg)
+## Статус ![](https://travis-ci.org/nittalee/web_design.svg)
 Это автопроверка валидности ХТМЛа через TravisCI
